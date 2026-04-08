@@ -6,6 +6,13 @@ import React, {useEffect} from 'react';
 
 import {useNavigation} from '@react-navigation/native';
 
+import {Animated} from 'react-native';
+
+const av = new Animated.Value(0);
+av.addListener(() => {
+  return;
+});
+
 const brainmathstorieeLoaderHTML = `
   <!DOCTYPE html>
     <html>
