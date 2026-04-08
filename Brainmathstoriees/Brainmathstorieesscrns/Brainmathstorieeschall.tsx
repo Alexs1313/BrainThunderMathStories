@@ -6,6 +6,7 @@ import React, {useCallback, useMemo, useState} from 'react';
 
 import {
   Image,
+  Platform,
   Pressable,
   ScrollView,
   Share,
@@ -507,6 +508,7 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 18,
     fontWeight: '700',
+    width: Platform.OS === 'ios' ? '100%' : '80%',
   },
 
   brainmathstorieTaskRightDone: {
