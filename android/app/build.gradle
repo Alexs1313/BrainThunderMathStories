@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.brainthundermathstories"
+    namespace "com.brain.thunder.math.stories"
     defaultConfig {
-        applicationId "com.brainthundermathstories"
+        applicationId "com.brain.thunder.math.stories"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

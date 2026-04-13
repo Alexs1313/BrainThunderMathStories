@@ -1,4 +1,4 @@
-package com.brainthundermathstories
+package com.brain.thunder.math.stories
 
 import android.app.Application
 import com.facebook.react.PackageList

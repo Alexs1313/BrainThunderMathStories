@@ -1,4 +1,4 @@
-package com.brainthundermathstories
+package com.brain.thunder.math.stories
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
